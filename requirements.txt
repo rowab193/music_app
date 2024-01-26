@@ -1,2 +1,5 @@
 streamlit
 seaborn
+streamlit_option_menu
+sklearn
+numpy
