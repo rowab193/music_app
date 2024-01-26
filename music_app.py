@@ -259,7 +259,7 @@ if selected == "Visualization":
         
     if vis_type == "3D Visualizations":
         
-        st.markdwn("***3D Visualizations***")
+        st.markdown("***3D Visualizations***")
         visualization3D(data2)
 
         st.markdown('The increase in explained variance to around 22% indicates that the first three PCA principal components capture slightly more of the total data variance than the first two components. This remains relatively low, meaning that much of the information contained in the original data is not represented in these three components.')
